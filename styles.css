@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    
+}
+
+.container{
+    height:700px;
+    width:500px;
+    margin:2% auto;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px rgb(99, 133, 184);
+    position:relative;
+    
+}
+.image{
+    height:230px;
+    width:500px;
+    border-radius: 6% 6% 0 0;
+}
+.heading{
+    margin-top: 40px;
+}
+
+.paragraph{
+    padding:2% 20%;
+    color:grey;
+}
+.pricing{
+    height:100px;
+    width:400px;
+    background-color: rgb(240, 243, 245);
+    position: absolute;
+    left:10%;
+    display: flex;
+    border-radius: 10%;
+}
+.icon{
+    display:flex;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    margin-top: 6%;
+    margin-left:2%;
+    margin-right:5%;
+}
+.price_class{
+    margin-top: 13%;
+    margin-left: -30%;
+    color:rgb(44, 44, 175);
+   
+}
+.tag{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.pay{
+    color:white;
+    font-size: 1.5rem;
+    padding:1%;
+}
+.cancel{
+    color:grey;
+    padding:5%;
+}
+.btn{
+    background-color: rgb(36, 45, 167);
+    border-radius: 10%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width:70%;
+    height:150%;
+    padding: 15px 32px;
+    text-align: center;
+    margin-top: 30%;
+    font-size:16px;
+}
+.text{
+    color:white;
+}
+a{
+    color:purple;
+}
